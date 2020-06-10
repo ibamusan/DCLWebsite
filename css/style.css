@@ -26,9 +26,61 @@ html {
 body {
   font-weight: 400;
   line-height: 1.6;
-  color: var(--color-grey-dark-2);
+  color: var(--color-grey-dark-1);
   font-family: var(--font-primary);
   font-display: var(--font-display);
-  background-image: linear-gradient(to right bottom, var(--color-grey-light-3), var(--color-grey-light-4));
+  background-image: linear-gradient(to right bottom, var(--color-grey-light-1), var(--color-grey-light-2));
   background-size: cover;
   min-height: 100vh; }
+
+.main-container {
+  margin: 20px; }
+
+.navigation {
+  display: flex;
+  align-items: center; }
+  .navigation__brand {
+    flex: 0 0 20%;
+    margin-right: 20px; }
+  .navigation__menu {
+    flex: 1;
+    margin-right: 20px; }
+  .navigation__button {
+    flex: 0 0 20%; }
+
+.navigation {
+  border-bottom: 1px solid #999; }
+  .navigation__brand--logo {
+    height: 50px;
+    width: 300px; }
+  .navigation__list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+  .navigation__item {
+    list-style: none; }
+  .navigation__link:link, .navigation__link:visited {
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--color-grey-dark-1);
+    padding: 7px 15px; }
+    .navigation__link:link:hover, .navigation__link:visited:hover {
+      background-color: orangered;
+      border-radius: 5px;
+      color: #fff; }
+  .navigation__link--active {
+    background-color: orangered;
+    border-radius: 5px;
+    color: #fff !important; }
+  .navigation__button {
+    display: flex;
+    justify-content: space-around; }
+    .navigation__button--btn {
+      text-decoration: none;
+      background-color: orangered;
+      border-radius: 5px;
+      color: #fff !important;
+      padding: 7px 15px; }
+      .navigation__button--btn:hover {
+        background-color: rgba(255, 69, 0, 0.79);
+        color: #000 !important; }
