@@ -7,7 +7,7 @@
   align-items: center;
 
   &__brand{
-    flex: 0 0 20%;
+    flex: 0 0 10%;
     margin-right: 20px;
 
   }
@@ -23,4 +23,18 @@
     
   }
 
+}
+
+
+.brand-name{
+  border-bottom: 1px solid $color-grey-dark-2;
+  &__text{
+    margin: 0;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    color: orangered;
+    text-transform: uppercase;
+    text-align: center;
+  }
 }

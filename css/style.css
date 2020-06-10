@@ -40,7 +40,7 @@ body {
   display: flex;
   align-items: center; }
   .navigation__brand {
-    flex: 0 0 20%;
+    flex: 0 0 10%;
     margin-right: 20px; }
   .navigation__menu {
     flex: 1;
@@ -48,11 +48,22 @@ body {
   .navigation__button {
     flex: 0 0 20%; }
 
+.brand-name {
+  border-bottom: 1px solid #999; }
+  .brand-name__text {
+    margin: 0;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    color: orangered;
+    text-transform: uppercase;
+    text-align: center; }
+
 .navigation {
   border-bottom: 1px solid #999; }
   .navigation__brand--logo {
     height: 50px;
-    width: 300px; }
+    width: 150px; }
   .navigation__list {
     display: flex;
     justify-content: space-around;
