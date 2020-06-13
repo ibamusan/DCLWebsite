@@ -15,6 +15,14 @@
   --shadow-light: 0 2rem 5rem rgba(0,0,0,.08);
   --line: 1px solid var(--color-grey-light-2); }
 
+.heading-primary {
+  font-size: 25px;
+  padding-left: 20px; }
+
+.heading-secondary {
+  font-size: 18px;
+  color: orangered; }
+
 *,
 ::before,
 ::after {
@@ -59,6 +67,22 @@ body {
     text-transform: uppercase;
     text-align: center; }
 
+.main-highlight {
+  display: flex; }
+
+.article-highlight {
+  flex: 0 0 25%;
+  min-height: 1000px; }
+
+.video-highlight {
+  flex: 1; }
+  .video-highlight__case {
+    margin-top: 83px; }
+
+.subscriber-highlight {
+  flex: 0 0 30%;
+  min-height: 500px; }
+
 .navigation {
   border-bottom: 1px solid #999; }
   .navigation__brand--logo {
@@ -95,3 +119,73 @@ body {
       .navigation__button--btn:hover {
         background-color: rgba(255, 69, 0, 0.79);
         color: #000 !important; }
+
+.article-box {
+  width: 80%;
+  background-color: #fff;
+  margin: 5px auto;
+  box-shadow: var(--shadow-light); }
+  .article-box__articles {
+    padding: 10px 25px; }
+    .article-box__articles--content {
+      font-size: 13px; }
+    .article-box__articles--author {
+      font-size: 11px;
+      font-style: italic;
+      font-weight: bold; }
+
+.btn-text:link, .btn-text:visited {
+  font-size: 12px;
+  display: inline-block;
+  color: orangered;
+  text-decoration: none;
+  border-bottom: 1px solid orangered;
+  padding: 3px;
+  transition: all .2s; }
+
+.btn-text:hover {
+  background-color: orangered;
+  color: #fff;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px); }
+
+.btn-text:active {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  transform: translateY(0); }
+
+.subscribers-box {
+  width: 85%;
+  min-height: 500px;
+  background-color: rgba(128, 128, 128, 0.15);
+  box-shadow: var(--shadow-light);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px auto;
+  height: 650px;
+  border-radius: 5px; }
+
+.subscribers {
+  width: 80%;
+  background-color: white;
+  display: flex;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: var(--shadow-light);
+  margin: 10px 0;
+  cursor: pointer;
+  transition: all .2s; }
+  .subscribers:hover {
+    transform: translateY(-2px); }
+  .subscribers__image {
+    height: 70px;
+    width: 70px;
+    margin-right: 20px; }
+  .subscribers__content--title {
+    text-decoration: none;
+    color: black; }
+  .subscribers__content--section {
+    color: orangered; }
+
+.sub-btn {
+  margin: 20px 0; }

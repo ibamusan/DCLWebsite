@@ -1,0 +1,21 @@
+.article-box{
+  width: 80%;
+  background-color: #fff;
+  margin: 5px auto;
+  box-shadow: var( --shadow-light);
+  
+
+  &__articles{
+    padding: 10px 25px;
+
+    &--content{
+      font-size: 13px;
+    }
+    
+    &--author{
+      font-size: 11px;
+      font-style: italic;
+      font-weight: bold;
+    }
+  }
+}

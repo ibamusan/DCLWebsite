@@ -1,0 +1,54 @@
+.subscribers-box{
+  width: 85%;
+  min-height: 500px;
+  background-color: rgba(grey, .15);
+  box-shadow: var(--shadow-light);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px auto;
+  height: 650px;
+  border-radius: 5px;
+  
+}
+
+.subscribers{
+  width: 80%;
+  background-color: rgba(#fff, 1);
+  display: flex;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: var(--shadow-light);
+  margin: 10px 0;
+  cursor: pointer;
+  transition: all .2s;
+
+  &:hover{
+    transform: translateY(-2px);
+  }
+
+  &__image{
+    height: 70px;
+    width:70px;
+    margin-right: 20px;
+  }
+
+  &__content{
+
+
+    &--title{
+      text-decoration: none;
+      color: black;
+
+    }
+
+    &--section{
+      color: orangered;
+
+    }
+  }
+}
+
+.sub-btn{
+  margin: 20px 0;
+}

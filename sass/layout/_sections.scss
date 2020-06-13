@@ -38,3 +38,25 @@
     text-align: center;
   }
 }
+
+.main-highlight{
+  display: flex;
+}
+
+.article-highlight{
+  flex: 0 0 25%;
+  min-height: 1000px;
+}
+
+.video-highlight{
+  flex: 1;
+
+  &__case{
+    margin-top: 83px;
+  }
+}
+
+.subscriber-highlight{
+  flex: 0 0 30%;
+  min-height: 500px;
+}

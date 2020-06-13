@@ -1,6 +1,12 @@
 @import "abstract/variable";
 
-@import "layout/base";
+@import "base/utilities";
+@import "base/base";
+
 @import "layout/sections";
 
 @import "components/navbar";
+@import "components/articles";
+@import "components/buttons";
+@import "components/subscriber";
+
