@@ -83,6 +83,10 @@ body {
   flex: 0 0 30%;
   min-height: 500px; }
 
+.legacy-journal {
+  min-height: 300px;
+  margin: 50px auto; }
+
 .navigation {
   border-bottom: 1px solid #999; }
   .navigation__brand--logo {
@@ -197,3 +201,18 @@ body {
   font-size: 18px;
   text-align: center;
   margin-top: 20px; }
+
+.legacy-header__text {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Raleway', sans-serif;
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
+  margin-top: 20px;
+  padding: 0 50px;
+  cursor: pointer; }
+  .legacy-header__text span {
+    background-color: orangered;
+    padding: 2px 20px;
+    color: white;
+    text-transform: uppercase; }
