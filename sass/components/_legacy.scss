@@ -21,3 +21,59 @@
 
   }
 }
+
+.legacy-content{
+
+  // display: flex;
+  // justify-content: space-around;
+  // align-items: center;
+
+  display: grid;
+  grid-template-columns: 250px 250px 250px 250px 250px;
+  grid-column-gap: 50px;
+  margin: 50px 0px;
+
+  &__box{
+    min-height: 200px;
+    max-width: 250px;
+    background-color: #fff;
+    box-shadow: var(--shadow-light);
+  }
+
+  &__img{
+    height: 120px;
+    width: 250px;
+  }
+
+  &__body{
+
+    padding: 10px;
+    &--title{
+      font-size: 14px;
+      font-weight: 700;
+      text-align: left;
+      color: orangered;
+
+    }
+
+    &--highlight{
+      font-size: 10px;
+    }
+
+    &--author{
+      display: flex;
+      align-items: center;
+    }
+
+    &--author-1{
+      color: orangered;
+      border-right: 1px solid #000;
+      padding-right: 5px;
+      margin-right: 5px;
+    }
+  }
+}
+
+.legacy-btn{
+  text-align: center;
+}
