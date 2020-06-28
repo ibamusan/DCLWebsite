@@ -71,3 +71,23 @@
   min-height: 300px;
   margin: 50px auto;
 }
+
+.kbc-series{
+  display: flex;
+  min-height: 500px;
+  margin-top: 50px;
+}
+
+.kbc-cur{
+  flex: 0 0 25%;
+}
+
+.kbc-video{
+  flex: 1;
+  margin: 0 25px;
+}
+
+.kbc-prev{
+  background-color: saddlebrown;
+  flex: 0 0 25%;
+}

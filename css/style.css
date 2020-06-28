@@ -91,6 +91,22 @@ body {
   min-height: 300px;
   margin: 50px auto; }
 
+.kbc-series {
+  display: flex;
+  min-height: 500px;
+  margin-top: 50px; }
+
+.kbc-cur {
+  flex: 0 0 25%; }
+
+.kbc-video {
+  flex: 1;
+  margin: 0 25px; }
+
+.kbc-prev {
+  background-color: saddlebrown;
+  flex: 0 0 25%; }
+
 .navigation {
   border-bottom: 1px solid #999; }
   .navigation__brand--logo {
@@ -222,6 +238,14 @@ body {
   text-align: center;
   margin-top: 20px; }
 
+.second-ads {
+  background-color: #fff;
+  height: 180px;
+  width: 690px;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 20px; }
+
 .legacy-header__text {
   font-size: 20px;
   font-weight: 600;
@@ -323,3 +347,47 @@ body {
 
 .anaseeha-btn {
   text-align: center; }
+
+.kbc-cur__box {
+  max-width: 100%;
+  min-height: 300px;
+  margin: 0px auto;
+  background-color: rgba(128, 128, 128, 0.15);
+  box-shadow: var(--shadow-light);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; }
+
+.kbc-cur__lectures {
+  background-color: #fff;
+  width: 80%;
+  border-radius: 7px;
+  box-shadow: var(--shadow-light);
+  cursor: pointer;
+  margin: 10px 0px; }
+  .kbc-cur__lectures:first-child {
+    margin-top: 50px; }
+  .kbc-cur__lectures:last-child {
+    margin-bottom: 50px; }
+  .kbc-cur__lectures--title-1 {
+    text-align: center;
+    cursor: pointer;
+    color: orangered; }
+  .kbc-cur__lectures--title-2 {
+    text-align: left;
+    margin-left: 20px;
+    line-height: 0px;
+    font-style: italic; }
+  .kbc-cur__lectures--detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .kbc-cur__lectures--detail-1 {
+    margin-left: 20px;
+    font-size: 14px;
+    color: rgba(255, 69, 0, 0.8); }
+  .kbc-cur__lectures--detail-2 {
+    margin-right: 20px;
+    font-size: 14px;
+    color: rgba(255, 69, 0, 0.8); }
